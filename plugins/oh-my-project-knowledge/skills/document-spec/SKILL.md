@@ -1,9 +1,11 @@
-# 프로젝트 지식 문서 스펙 (Document Spec)
-
-> 이 파일은 .claude/docs/ 하위 문서를 생성하거나 갱신할 때 참조하는 **형식 정의서**이다.
-> Claude Code는 문서를 생성할 때 반드시 이 스펙의 형식을 따라야 한다.
-
 ---
+name: document-spec
+description: |
+  코드 지식 문서(DOMAIN_MAP, FEATURES, ENTITIES, SERVICE_FLOW 등)를 생성하거나 갱신할 때 참조하는 형식 정의.
+  project-knowledge-init, project-knowledge-update 명령 실행 시 반드시 이 형식을 따른다.
+---
+
+# 프로젝트 지식 문서 형식 정의 (Document Spec)
 
 ## 공통 규칙
 

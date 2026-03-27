@@ -1,9 +1,11 @@
-# 비즈니스 지식 문서 스펙 (Business Spec)
-
-> 이 파일은 .claude/docs/business/ 하위 문서를 생성하거나 갱신할 때 참조하는 **형식 정의서**이다.
-> Claude Code는 비즈니스 문서를 생성할 때 반드시 이 스펙의 형식을 따라야 한다.
-
 ---
+name: business-spec
+description: |
+  비즈니스 지식 문서(POLICIES, SPEC, GLOSSARY, POLICY_CATALOG)를 생성하거나 갱신할 때 참조하는 형식 정의.
+  business-knowledge-init, business-knowledge-update 명령 실행 시 반드시 이 형식을 따른다.
+---
+
+# 비즈니스 지식 문서 형식 정의 (Business Spec)
 
 ## 공통 규칙
 

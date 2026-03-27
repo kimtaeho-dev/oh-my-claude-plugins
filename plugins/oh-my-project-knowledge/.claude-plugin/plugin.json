@@ -1,0 +1,13 @@
+{
+  "name": "oh-my-project-knowledge",
+  "description": "Claude Code가 코드베이스를 분석하여 프로젝트 지식(도메인 구조, 영향 관계)과 비즈니스 지식(정책, 용어, 기획서)을 체계적으로 문서화하는 플러그인",
+  "version": "0.1.0",
+  "author": {
+    "name": "kimtaeho-dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimtaeho-dev/oh-my-project-knowledge"
+  },
+  "license": "MIT"
+}
