@@ -84,16 +84,12 @@ subagent 호출 시 아래 정보를 포함하라:
 3. `.claude/docs/business/domains/{domain}/SPEC.md` 작성
 
 #### Step D: 정적 웹사이트 생성
+
+이 플러그인의 **website-spec** 스킬에 정적 웹사이트의 파일 구조, HTML 템플릿, CSS 디자인, JS 동작, 검색 인덱스 형식이 정의되어 있다. 웹사이트 생성 시 반드시 해당 형식을 따라라.
+
 1. 모든 business/ 문서를 HTML로 변환하라
 2. 검색 인덱스(search-index.json)를 생성하라
 3. `.claude/docs/business/_site/` 에 출력하라
-
-정적 웹사이트 요구사항:
-- 빌드: 프로젝트 의존성 없이 독립 실행 가능 (Node.js 스크립트 또는 직접 HTML 생성)
-- 출력: 순수 정적 파일 (HTML + CSS + JS). 서버 불필요
-- 검색: 클라이언트 사이드 전문 검색 (search-index.json + JS 필터링)
-- 네비게이션: 좌측 사이드바, 브레드크럼, 앵커 링크, 크로스 레퍼런스
-- 디자인: 텍스트 중심, 인쇄 가능, 다크모드, 모바일 대응
 
 ### Phase 4: 검증 및 정리
 
